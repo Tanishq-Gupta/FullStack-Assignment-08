@@ -267,3 +267,47 @@ li a:hover {
 .footer a {
     text-decoration: underline;
 }
+
+.text-container-1 p{
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    color: white;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.text-container-1 p::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.button {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: red;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 2%;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.square-strip h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-container-1 p {
+    height: 220px;
+    overflow: hidden;
+}
