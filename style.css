@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.outer {
+    width: 67%;
+    background-color: rgb(241, 241, 241);
+    margin-left: auto;
+    margin-right: auto;
+    height: 2935px;
+}
+
+.border {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2870px;
+    position: relative;
+    top: 37px;
+    background-color: white;
+}
+
+.inner {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+}
+
+ .header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(161, 144, 144);
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size : 25px;
+}
+
+li a {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.banner {
+    height: 800px;
+    background-color: skyblue;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('./images/computer.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+.section1 {
+    height: 500px;
+} 
+
+.section1 h1 {
+    text-align: center;
+}
+
+.circles {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.circle {
+    margin-top: 40px;
+    background-color: tomato;
+    width: 20%;
+    padding-bottom: 20%;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-image: url('./images/male1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle2 {
+    background-image: url('./images/male4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle3 {
+    background-image: url('./images/male3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle4 {
+    background-image: url('./images/male4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section2 {
+    width: 100%;
+}
+
+.section2 h1 {
+    text-align: center;
+}
+
+.section2-shapes {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.square {
+    width: 50%;
+    background-color: gray;
+    height: 700px;
+    color: white;
+}
+
+.square h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.square p {
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.square p::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.strips {
+    margin-left: 30px;
+    height: 700px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.strip {
+    background-color: burlywood;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.strip1 {
+    background-image: url('./images/project1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.strip2 {
+    background-image: url('./images/project2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.strip3 {
+    background-image: url('./images/project3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section3 h1 {
+    text-align: center;
+}
+
+.square-strips {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.square-strip {
+    height: 300px;
+    width: 20%;
+    background-color: red;
+    margin-bottom: 50px;
+}
+
+.section4 h1{
+    text-align: center;
+}
+
+.footer {
+    margin-top: 40px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 143, 232);
+    color: white;
+}
