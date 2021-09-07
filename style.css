@@ -28,6 +28,8 @@ a {
     color: white;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0px;
 }
 
 ul {
